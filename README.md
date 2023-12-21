@@ -28,6 +28,8 @@ AddComment
 
 Adds a new comment to the Comments table.
 
+--------------------------------------------------
+
 sql
 
 CALL AddComment('Comment Content', UserID, PostID);
@@ -36,6 +38,8 @@ GetPostsAndComments
 
 Retrieves a list of posts with their authors and comment counts.
 
+----------------------------------------------------
+
 sql
 
 CALL GetPostsAndComments();
@@ -43,6 +47,8 @@ CALL GetPostsAndComments();
 Database Connection (db_connection.php)
 
 Ensure to include the db_connection.php file in your PHP application to establish a connection to the database.
+
+------------------------------------------------------------
 
 php
 
